@@ -1,0 +1,120 @@
+.phone-number span {
+  padding: 7px 10px 11px 10px;
+  width: 100px;
+}
+
+.flag {
+  padding: 5px;
+}
+
+.phone-number {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+.phone-number input {
+  padding: 120px;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  height: 57px;
+  border-radius: 2px;
+}
+
+.phone-number button {
+  padding: 10px 30px;
+  background-color: #387ed1;
+  border-radius: 2px;
+  font-size: 1.2rem;
+  width: 260px;
+  height: 54px;
+  margin-bottom: 20px;
+}
+
+.phone-number button:hover {
+  background-color: #222;
+  border-color: #222;
+}
+
+.phone-number p {
+  font-size: 0.9rem;
+  color: rgb(99, 99, 99);
+  font-weight: 400;
+}
+
+.investment-options-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: left;
+  text-justify: newspaper;
+  padding: 20px 40px;
+  margin-top: 3rem;
+  font-size: smaller;
+}
+
+.investment-options {
+  display: flex;
+  flex: 0 0 50%;
+  box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.investment-options-info {
+  max-width: 50%;
+}
+
+.steps {
+  padding: 50px 40px 70px;
+  background: #fafafb;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.steps h2 {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.acop-steps-container {
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.7rem;
+  align-self: flex-start;
+}
+
+.acop-steps-text {
+  margin: 20px 0 15px 15px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.acop-steps {
+  margin: auto 0;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.benifits-image {
+    width: 350px;
+    margin-bottom: 35px;
+    height: auto;
+}
