@@ -1,0 +1,59 @@
+/* Keep only what isn't covered by Bootstrap or index.css */
+.landing-subheading {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.product-links a {
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.product-links a:hover {
+  color: #222;
+}
+
+.product-group{
+	align-content: center;
+}
+
+.products .row{
+	max-width: fit-content;
+}
+
+.product-group img{
+  padding: auto 0;
+}
+
+.universe-container {
+  display: grid;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  margin: 10px;
+  max-width: 30%;
+  height: 100%;
+}
+
+.universe-logo{
+  margin-top: 10px;
+  height: 50px;
+  width: auto;
+}
+
+.universe-group {
+  display: flex;
+  align-content: space-evenly;
+  justify-content:space-evenly;
+  height: fit-content;
+}
+
+.universe-text p{
+  margin: 10px 20px 20px;
+  font-size: 0.7rem;
+}
+
+
+
+

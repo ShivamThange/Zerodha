@@ -4,6 +4,7 @@ import Hero from './Hero';
 import Leader from './Leader';
 import Team from './Team';
 import Footer from '../Footer';
+import './aboutpage.css';
 
 const AboutPage = () => {
   return (

@@ -1,8 +1,15 @@
-import React from 'react';
+import React from "react";
+import AccountTable from "./tables/Acop";
+import TableComponent from "./TableContainer";
 
 const OpeningCharges = () => {
   return (
-    <h1>OpeningCharges</h1>
+    <div className="acop-container">
+      <TableComponent
+        table={<AccountTable />}
+        title="Charges for optional value added services"
+      ></TableComponent>
+    </div>
   );
 };
 

@@ -1,0 +1,118 @@
+.about-people {
+	background-color: #fff;
+}
+
+/* Prevent any horizontal overflow within the section */
+.about-people, .team-section {
+	overflow-x: hidden;
+}
+
+.section-title {
+	font-weight: 400;
+	font-size: 28px;
+}
+
+.about-people a {
+	color: #387ed1;
+	text-decoration: none;
+}
+
+.about-people a:hover {
+	text-decoration: underline;
+}
+
+.link-unstyled { color: #387ed1; text-decoration: none; }
+.link-unstyled:hover { text-decoration: underline; }
+
+.founder-image {
+	width: 280px;
+	height: 280px;
+	object-fit: cover;
+	border-radius: 50%;
+	filter: grayscale(100%);
+}
+
+.team-members-image {
+	width: 220px;
+	height: 220px;
+	object-fit: cover;
+	border-radius: 50%;
+	filter: grayscale(100%);
+}
+
+.team-section {
+	margin-top: -10px;
+}
+
+.team-container h5 {
+	font-weight: 500;
+}
+
+.text-grey { color: #666; }
+
+/* Accordion to visually match the site */
+
+/* Make the accordion look like a simple inline link */
+.team-accordion {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+.team-accordion::before { display: none; }
+
+.team-accordion .MuiAccordionSummary-root {
+	min-height: 0;
+	padding: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Center the summary inline and keep width to content only */
+.team-accordion .MuiAccordionSummary-root, .team-accordion .MuiAccordionSummary-content {
+	width: auto;
+}
+
+.team-accordion .MuiAccordionSummary-content {
+	margin: 0;
+	display: inline-flex;
+	align-items: center;
+}
+
+.team-accordion .MuiAccordionDetails-root {
+	padding: 6px 0 0 0;
+}
+
+.bio-summary span {
+	font-size: 14px;
+}
+
+/* Bio trigger link: grey text, content-width, centered */
+.bio-link {
+	color: #666;
+	display: inline-block;
+	width: auto;
+	text-decoration: none;
+	padding: 4px 8px;
+	border-radius: 12px;
+}
+
+.bio-link:hover {
+	text-decoration: underline;
+}
+
+.ceo-container p {
+	color: #424242;
+}
+
+/* Responsive image sizing to avoid horizontal scroll and match look */
+@media (max-width: 991.98px) {
+	.founder-image { width: 220px; height: 220px; }
+	.team-members-image { width: 180px; height: 180px; }
+}
+
+@media (max-width: 575.98px) {
+	.founder-image { width: 200px; height: 200px; }
+	.team-members-image { width: 160px; height: 160px; }
+}

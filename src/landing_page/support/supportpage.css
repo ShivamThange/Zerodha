@@ -1,0 +1,62 @@
+
+/* --- HERO SECTION --- */
+.hero {
+  background: #f8f9fa;
+  padding: 40px 0;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  max-width: 700px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* --- ACCORDION SECTION --- */
+.accordion-container {
+  margin-top: 20px;
+}
+
+.accordion-container .MuiAccordion-root {
+  border-radius: 6px;
+  box-shadow: none;
+  border: 1px solid #e0e0e0;
+}
+
+.accordion-container .MuiAccordion-root:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.accordion-container .MuiAccordionSummary-root {
+  background: #fafafa;
+}
+
+/* --- QUICK LINKS --- */
+.quick-links {
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.quick-links h6 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 6px;
+}
+
+.quick-links .MuiListItem-root {
+  padding: 6px 0;
+}
+
+.quick-links .MuiListItemText-primary {
+  font-size: 0.95rem;
+  color: #424242;
+}

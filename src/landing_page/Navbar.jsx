@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "@mui/material";
 
 const Navbar = () => {
   return (
@@ -7,25 +8,25 @@ const Navbar = () => {
       <div className="Navbar">
         <div className="nav-container row">
           <div className="logo-container">
-            <a href="/">
+            <Link href="/">
               <img src="static/images/logo.svg" alt="Zerodha" className="logo"/>
-            </a>
+            </Link>
           </div>
           <div className="nav-link-container">
             <div className="nav-link p-3">
-              <a href="/signup">Signup</a>
+              <Link href="/signup">Signup</Link>
             </div>
             <div className="nav-link p-3">
-              <a href="/about">About</a>
+              <Link href="/about">About</Link>
             </div>
             <div className="nav-link p-3">
-              <a href="/products">Products</a>
+              <Link href="/products">Products</Link>
             </div>
             <div className="nav-link p-3">
-              <a href="/pricing">Pricing</a>
+              <Link href="/pricing">Pricing</Link>
             </div>
             <div className="nav-link p-3">
-              <a href="/support">Support</a>
+              <Link href="/support">Support</Link>
             </div>
           </div>
         </div>

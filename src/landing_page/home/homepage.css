@@ -1,15 +1,5 @@
 /* Hero Css */
 
-.container {
-  overflow: auto;
-  position: relative;
-  width: 1200px;
-  max-width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0 20px 120px 20px;
-  margin: 30px auto 0;
-}
 
 .homepage .hero .button {
   margin-top: 25px;

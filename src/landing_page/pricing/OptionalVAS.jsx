@@ -1,8 +1,15 @@
-import React from 'react';
+import React from "react";
+import Ovas from "./tables/Ovas";
+import TableContainer from "./TableContainer.jsx";
 
 const OptionalVAS = () => {
   return (
-    <h1>OptionalVAS</h1>
+    <div className="Ovas">
+      <TableContainer
+        table={<Ovas />}
+        title="Charges for optional value added services"
+      ></TableContainer>
+    </div>
   );
 };
 

@@ -114,7 +114,41 @@
 }
 
 .benifits-image {
-    width: 350px;
-    margin-bottom: 35px;
-    height: auto;
+  width: 350px;
+  margin-bottom: 35px;
+  height: auto;
+}
+
+.type-container {
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  margin: 10px;
+  max-width: 30%;
+  align-self: first baseline;
+  height: 100%;
+}
+
+.type {
+  position: relative;
+  left: -30px;
+  margin: 10px 0;
+  max-width: fit-content;
+  z-index: 9;
+  background-color: #eff6ff;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.types-group {
+  align-content: space-around;
+  justify-content:center;
+  height: max-content;
+}
+
+.type-text h2 {
+  font-size: 20px;
+}
+
+.type-text {
+  margin: -40px 20px 20px;
 }
